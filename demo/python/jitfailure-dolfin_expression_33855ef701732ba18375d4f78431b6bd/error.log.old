@@ -1,0 +1,4 @@
+/tmp/tmp76yeg_re/dolfin_expression_33855ef701732ba18375d4f78431b6bd.cpp: In member function ‘virtual void dolfin::dolfin_expression_33855ef701732ba18375d4f78431b6bd::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const’:
+/tmp/tmp76yeg_re/dolfin_expression_33855ef701732ba18375d4f78431b6bd.cpp:62:52: error: invalid type argument of unary ‘*’ (have ‘double’)
+           values[0] = lamb*(lamb + 1)*(sin(x[2]))**lamb*sin(lamb*x[1]);
+                                                    ^~~~

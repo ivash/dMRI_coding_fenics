@@ -1,0 +1,11 @@
+/tmp/tmp7_x349_j/dolfin_expression_a3ba8aef609b7ec8da2a8dd4b773565c.cpp: In member function ‘virtual void dolfin::dolfin_expression_a3ba8aef609b7ec8da2a8dd4b773565c::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const’:
+/tmp/tmp7_x349_j/dolfin_expression_a3ba8aef609b7ec8da2a8dd4b773565c.cpp:61:34: error: ‘r’ was not declared in this scope
+           values[0] = acos2(x[2],r);
+                                  ^
+/tmp/tmp7_x349_j/dolfin_expression_a3ba8aef609b7ec8da2a8dd4b773565c.cpp:61:23: error: ‘acos2’ was not declared in this scope
+           values[0] = acos2(x[2],r);
+                       ^~~~~
+/tmp/tmp7_x349_j/dolfin_expression_a3ba8aef609b7ec8da2a8dd4b773565c.cpp:61:23: note: suggested alternative: ‘acosl’
+           values[0] = acos2(x[2],r);
+                       ^~~~~
+                       acosl

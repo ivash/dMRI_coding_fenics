@@ -1,0 +1,11 @@
+/tmp/tmp3szrkfu7/dolfin_subdomain_798bd5e68f3fa9c2ca1fa608968320a0.cpp: In member function ‘virtual bool dolfin::dolfin_subdomain_798bd5e68f3fa9c2ca1fa608968320a0::inside(Eigen::Ref<const Eigen::Matrix<double, -1, 1> >, bool) const’:
+/tmp/tmp3szrkfu7/dolfin_subdomain_798bd5e68f3fa9c2ca1fa608968320a0.cpp:63:37: error: ‘bvecs’ was not declared in this scope
+          return near(x[0], Constant(bvecs[1][0])) && near(x[1],bvecs[1][1]) && near(x[2],bvecs[1][2]);
+                                     ^~~~~
+/tmp/tmp3szrkfu7/dolfin_subdomain_798bd5e68f3fa9c2ca1fa608968320a0.cpp:63:28: error: ‘Constant’ was not declared in this scope
+          return near(x[0], Constant(bvecs[1][0])) && near(x[1],bvecs[1][1]) && near(x[2],bvecs[1][2]);
+                            ^~~~~~~~
+/tmp/tmp3szrkfu7/dolfin_subdomain_798bd5e68f3fa9c2ca1fa608968320a0.cpp:63:28: note: suggested alternative: ‘obstack’
+          return near(x[0], Constant(bvecs[1][0])) && near(x[1],bvecs[1][1]) && near(x[2],bvecs[1][2]);
+                            ^~~~~~~~
+                            obstack

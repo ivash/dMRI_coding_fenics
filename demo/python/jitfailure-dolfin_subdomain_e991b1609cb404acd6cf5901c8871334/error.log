@@ -1,0 +1,4 @@
+/tmp/tmpvy36pegw/dolfin_subdomain_e991b1609cb404acd6cf5901c8871334.cpp: In member function ‘virtual bool dolfin::dolfin_subdomain_e991b1609cb404acd6cf5901c8871334::inside(Eigen::Ref<const Eigen::Matrix<double, -1, 1> >, bool) const’:
+/tmp/tmpvy36pegw/dolfin_subdomain_e991b1609cb404acd6cf5901c8871334.cpp:63:27: error: ‘bvecs’ was not declared in this scope
+          return near(x[0],bvecs[1][0]) && near(x[1],bvecs[1][1]) && near(x[2],bvecs[1][2]);
+                           ^~~~~
